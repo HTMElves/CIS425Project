@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Arizona City Auto Repair | Home Page</title>
+</head>
+<body>
+	<header>
+		<h1>Insert Header Here</h1>
+
+	</header>
+	<h2>Welcome to Arizona City Auto Repair!</h2>
+
+	<img src="AZauto.jfif" style="width: 576px; height: 576px">
+
+	<h3>About Us:</h3>
+
+	<p>Here at Arizona City Auto Repair, our mission and vision is to provide Full Service Auto Repair with Full Commitment to our Arizona City and Casa Grande customers and community.</p>
+
+	<h3>What we Offer:</h3>
+
+	<ul>
+		<li>Full Automotive Repair</li>
+		<li>Paint and Body</li>
+		<li>Custom Exhaust or Factory</li>
+		<li>Tires</li>
+	</ul>
+
+	<h3>Find Us:</h3>
+
+	<p>11284 Alder Drive<br/>Arizona City, AZ<br/>(520) 494-0436<br/>Open from 7:00 a.m. to 5:00 p.m.</p>
+
+	<footer>
+		<h1>Inster Footer Here</h1>
+	</footer>
+	
+</body>
+</html>

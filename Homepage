@@ -11,8 +11,8 @@
         		<img class="headerLogo" src="" alt="CompanyLogo">
   			<div class="headerRight">
 				  <a class="headerLink" href="">Home</a>
-			 	  <a class="headerLink" href="">Services</a>	
-  				<a class="headerLink" href="">Contact</a>
+			 	  <a class="headerLink" href="products.html">Services</a>	
+  				<a class="headerLink" href="contact.html">Contact</a>
   			</div>
   		</div>
 	</div>

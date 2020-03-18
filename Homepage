@@ -2,6 +2,7 @@
 <html>
 <head>
 	<title>Arizona City Auto Repair | Home Page</title>
+	<link rel="stylesheet" type="text/css" href="headerandFooterCSS.css">
 </head>
 <body>
 	<header>

@@ -8,7 +8,7 @@
 		<div class="header">
   		<div class="headerBackground">
   			<a class="headerTitle" href="">Arizona City Auto Repair</a>
-        		<img class="headerLogo" src="" alt="CompanyLogo">
+        		<img class="headerLogo" src="AZautorepair.jpeg alt="CompanyLogo">
   			<div class="headerRight">
 				  <a class="headerLink" href="">Home</a>
 			 	  <a class="headerLink" href="products.html">Services</a>	

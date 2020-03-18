@@ -5,7 +5,17 @@
 </head>
 <body>
 	<header>
-		<h1>Insert Header Here</h1>
+		<div class="header">
+  		<div class="headerBackground">
+  			<a class="headerTitle" href="">Arizona City Auto Repair</a>
+        		<img class="headerLogo" src="" alt="CompanyLogo">
+  			<div class="headerRight">
+				  <a class="headerLink" href="">Home</a>
+			 	  <a class="headerLink" href="">Services</a>	
+  				<a class="headerLink" href="">Contact</a>
+  			</div>
+  		</div>
+	</div>
 
 	</header>
 	<h2>Welcome to Arizona City Auto Repair!</h2>
@@ -30,7 +40,9 @@
 	<p>11284 Alder Drive<br/>Arizona City, AZ<br/>(520) 494-0436<br/>Open from 7:00 a.m. to 5:00 p.m.</p>
 
 	<footer>
-		<h1>Inster Footer Here</h1>
+		<div class = "footer">
+    			<p> created by HTMLELVES as not-profit project </p>
+  		</div>
 	</footer>
 	
 </body>

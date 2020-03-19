@@ -21,7 +21,7 @@
 	</header>
 	<h2>Welcome to Arizona City Auto Repair!</h2>
 
-	<img src="AZauto.jfif" style="width: 576px; height: 576px">
+	<img src="AZauto.jfif" style="width: 100%; height: 350px">
 
 	<h3>About Us:</h3>
 

@@ -4,7 +4,6 @@ body {
 }
 .product {
     width: 50%;
-    margin-left: 5%;
 }
 .odd, .even, .heading {
     background-color: rgb(243, 243, 243);

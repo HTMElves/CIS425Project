@@ -13,7 +13,8 @@ var fileExtensions = {
      ".jpeg":    "image/jpeg",
      ".jpg":     "image/jpeg",
      ".png":     "image/png",
-     ".jfif":    "image/jfif"
+     ".jfif":    "image/jfif",
+     ".json":    "text/JSON"
  };
 
 var server = http.createServer(function(request, response) { 

@@ -105,3 +105,15 @@ img {
 .home-right {
     float: right;
 }
+th {
+  width: max-content;
+  text-align: left;
+}
+
+.calculate {
+  width: 100px;
+  margin-top: 5px;
+}
+.qty {
+  width: 100px;
+}

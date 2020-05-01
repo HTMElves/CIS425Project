@@ -6,15 +6,21 @@ var passwd = ""
 function calculateTotal() {
     records = $('.data')
 
-    var qty=0, price=0, totalPrice=0
+    var qty=0, price=0, tax=0, processingFee=0, subTotal=0, totalPrice=0
     for (i=0; i<records.length;i++) {
          
         price = Number(records[i].children[2].innerHTML)
         qty = Number(records[i].children[3].children[0].value)
-        totalPrice = price * qty
-        console.log(price, qty, totalPrice)
+        subTotal += price * qty
     }
+    tax = subTotal * 0.07
+    processingFee = subTotal * 0.01
+    totalPrice = subTotal + tax + processingFee
 
+    console.log("Subtotal: "+subTotal)
+    console.log("Tax (7%): "+tax)
+    console.log("Processing Fee (1%): "+processingFee)
+    console.log("Total: "+totalPrice)
  
     // for (i=0; i<quantities.length; i++) {
     //     totalQty += Number(quantities[i].value)

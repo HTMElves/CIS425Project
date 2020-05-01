@@ -3,9 +3,9 @@ body {
     margin-right: 5%;
 }
 .product {
-    width: 50%;
+    width: 80%;
 }
-.odd, .even, .heading {
+.data, .heading {
     background-color: rgb(243, 243, 243);
     font-size: large;
 }
@@ -109,7 +109,10 @@ th {
   width: max-content;
   text-align: left;
 }
-
+td {
+  width: auto;
+  padding: 5px;
+}
 .calculate {
   width: 100px;
   margin-top: 5px;

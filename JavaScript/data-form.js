@@ -17,21 +17,18 @@ function calculateTotal() {
     processingFee = subTotal * 0.01
     totalPrice = subTotal + tax + processingFee
 
+    $('#Subtotal').html('$'+subTotal.toFixed(2))
+    $('#Tax').html('$'+tax.toFixed(2))
+    $('#ProcessingFee').html('$'+processingFee.toFixed(2))
+    $('#GrandTotal').html('$'+totalPrice.toFixed(2))
+    
+    
     console.log("Subtotal: "+subTotal)
     console.log("Tax (7%): "+tax)
     console.log("Processing Fee (1%): "+processingFee)
     console.log("Total: "+totalPrice)
  
-    // for (i=0; i<quantities.length; i++) {
-    //     totalQty += Number(quantities[i].value)
-    // }
 
-
-    
-    // totalQty += Number($('#qty0').val())
-    totalPrice += Number($('#cost0').html())
-    
-    // console.log(totalQty, totalPrice)
 }
 
 function requestData() {

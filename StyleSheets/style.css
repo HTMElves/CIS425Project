@@ -5,14 +5,14 @@ body {
 .product {
     width: 80%;
 }
-.data, .heading {
+.data {
     background-color: rgb(243, 243, 243);
-    font-size: large;
+    font-size: medium;
 }
 .heading {
     background-color: rgb(43,43,43);
     color: white;
-    font-size: x-large;
+    font-size: large;
 }
 .header {
     background-color: #ffffff;
@@ -51,7 +51,7 @@ body {
   
   }
   a.headerLink:hover {
-    color: #bd0000
+    color: #bd0000;
   }
   a.headerTitle:hover {
     background-color: #0066ff;
@@ -108,10 +108,13 @@ img {
 th {
   width: max-content;
   text-align: left;
+
 }
 td {
   width: auto;
   padding: 5px;
+
+
 }
 .calculate {
   width: 100px;
@@ -120,3 +123,25 @@ td {
 .qty {
   width: 100px;
 }
+.totalPrice {
+  width: 20%;
+  text-align: left;
+  /* border-style: solid;
+  border-width: 1px; */
+}
+.tpHeading {
+background-color: rgb(43,43,43);
+color: white;
+font-size: medium;
+
+}
+.tpData {
+  /* background-color: rgb(243, 243, 243); */
+  font-size: medium;
+
+}
+#amountLabel {
+  width: 50%;
+}
+
+
